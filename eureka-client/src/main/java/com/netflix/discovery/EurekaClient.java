@@ -14,6 +14,8 @@ import com.netflix.discovery.shared.Applications;
 import com.netflix.discovery.shared.LookupService;
 
 /**
+ * client接口
+ *
  * Define a simple interface over the current DiscoveryClient implementation.
  *
  * This interface does NOT try to clean up the current client interface for eureka 1.x. Rather it tries
