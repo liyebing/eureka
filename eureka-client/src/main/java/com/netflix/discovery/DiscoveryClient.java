@@ -446,7 +446,7 @@ public class DiscoveryClient implements EurekaClient {
         DiscoveryManager.getInstance().setEurekaClientConfig(config);
 
         initTimestampMs = System.currentTimeMillis();
-        logger.info("Discovery Client initialized at timestamp {} with initial instances count: {}",
+        logger.info("Discovery Client initialized at timesInstanceInfotamp {} with initial instances count: {}",
                 initTimestampMs, this.getApplications().size());
     }
 
